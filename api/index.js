@@ -1,11 +1,14 @@
-import express from 'express';
-import mongoose from 'mongoose';
 
-const app = express();
+import express from  'express';
+const port = 3000;
 
-app.listen(3000,()=>{
-    mongoose.connect();
-    console.log('server is running on port 3000')
-})
+const app = express();  
 
-ighsljgwhg sejghs'gjwh'wighw 'gojwhg wgjhwg' 
+app.listen(port,() =>{
+    console.log(`Server is running on port ${port}`);
+
+});
+
+
+
+
